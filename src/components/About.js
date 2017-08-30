@@ -10,7 +10,7 @@ const About = () => {
         "One of these days the sun's gonna come up and burn a hole clean through the planet like a giant electrical
         x-ray."
       </p>
-      <nav>
+      <nav className="Navi">
         <NavLink activeClassName="selected" className="nav-link" exact to="/">
           Home
         </NavLink>

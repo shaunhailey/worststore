@@ -11,7 +11,7 @@ const Contact = () => {
         <li>Email = "worsteemailever@suckit.io"</li>
         <li>Address = '678 Slumtrap Ave, Memphis, TN'</li>
       </ul>
-      <nav>
+      <nav className="Navi">
         <NavLink activeClassName="selected" className="nav-link" exact to="/">
           Home
         </NavLink>

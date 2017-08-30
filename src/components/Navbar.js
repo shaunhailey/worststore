@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom'
 
 const Navbar = () =>
   <div>
-    <nav>
+    <nav className="Navi">
       <NavLink activeClassName="selected" className="nav-link" exact to="/">
         Home
       </NavLink>

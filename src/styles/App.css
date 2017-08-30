@@ -27,6 +27,32 @@
   }
 }
 
-.contact {
-  background-image: image('./Images/worst_store_ever.jpg');
+.contact,
+.home,
+.about {
+  background: url('../Images/worst_store_ever.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.contactList {
+  box-sizing: border-box;
+  background-size: contain;
+  width: 500px;
+}
+.Navi {
+  display: flex;
+  justify-content: space-between;
+  background-size: contain;
+  width: 500px;
+}
+.burgers {
+  background: url('../Images/bad_burger.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
