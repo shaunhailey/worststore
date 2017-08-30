@@ -11,18 +11,20 @@ export default class burgerMenu extends Component {
     let burgerBuns = burgerItems.map(burgerItems => {
       return (
         <div key={burgerItems.id} className={burgerItems.Name}>
-          <NavLink activeClassName="selected" className="navlink" to={`${match.url}/${burgerItems.Name}`}>
-            <img src={burgerItems.Image} alt={burgerItems.Name} />
-          </NavLink>
+          <ul>Burgers!</ul>
+          <li>
+            {burgerItems.name}
+          </li>
+          <img src={burgerItems.Image} alt={burgerItems.Name} />
         </div>
       )
     })
     return (
       <div className="Burgertown">
+        {burgerBuns}
         <Link className="btn btn-large btn-primary" to="/">
           Back To Home
         </Link>
-        {burgerBuns}
       </div>
     )
   }
