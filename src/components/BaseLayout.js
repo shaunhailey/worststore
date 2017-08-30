@@ -6,9 +6,13 @@ import Home from './Home.js'
 import About from './About.js'
 import Contact from './Contact.js'
 import Navbar from './Navbar.js'
+import Burgers from './Burgers.js'
+import Camera from './Camera.js'
+import Insurance from './Insurance.js'
+import VHSRental from './VHSRental.js'
 
 // import Header from './Header.js'
-import { Switch, Route, Link } from 'react-router-dom'
+import { Switch, Route, Link, NavLink } from 'react-router-dom'
 
 const BaseLayout = () =>
   <div>

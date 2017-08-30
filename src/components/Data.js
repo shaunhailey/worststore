@@ -3,49 +3,85 @@ import ReactDOM from 'react-dom'
 
 const burgerItems = [
   {
-    Basic_burger: './Images/bad_burger.jpg'
+    Name: 'Basic burger'
+    Image: './Images/bad_burger.jpg'
+    Description: 'The Worste Basic Burger. Loaded with whatever was lying around that day, a true suprise in every bite.'
+    Price: 1
   },
   {
-    Hippo_burger: './Images/hippo_burger.jpg'
+    Name: 'Hippo burger'
+    Image: './Images/hippo_burger.jpg'
+    Description: 'The Worste Hippo Burger. It is a baby hippo on a bun, what more could you want?'
+    Price: 10 + 'however much the poacher charges'
   },
   {
-    Worste_burger: './Images/the-worst-burger-ever.jpg'
+    Name: 'The Worste Burger'
+    Image: './Images/the-worst-burger-ever.jpg'
+    Description: 'Our ultimate burger for the purest Worste experience ever.'
+    Price: 'Eleventeen pesos'
   }
 ]
 
 const cameraItems = [
   {
-    Big_camera: './Images/bad_camera.jpeg'
+    Name: 'The Big Camera'
+    Image: './Images/bad_camera.jpeg'
+    Description: 'Perfect for when you need a big ole camera.'
+    Price: 149.74
   },
   {
-    Costume_camera: './Images/camera-costume-1.jpg'
+    Name: 'Wearable Camera'
+    Image: './Images/camera-costume-1.jpg'
+    Description: 'See the camera, be the camera, embody the Worste camera.'
+    Price: 3.50
   },
   {
-    Tat_camera: './Images/embedded_camera_arm_tattoo.jpg'
+    Name: 'Camera tatoo'
+    Image: './Images/embedded_camera_arm_tattoo.jpg'
+    Description: 'Rep your Worste Camera style with the Worste tatoo ever!'
+    Price: 'Commensurate with hipness'
   }
 ]
 
 const insuranceItems = [
   {
-    Bad_insurance: './Images/bad_insurance_guy.png'
+    Name: 'Harvey Buttwhacker'
+    Image: './Images/bad_insurance_guy.png'
+    Description: 'Mr. Buttwhacker sells insurance (we think), but no one knows what kind. But we are sure he will tell you if you ask nicely.'
+    Price: 'Probably, but who knows how much?'
   },
   {
-    Kaufmann_insurance: './Images/employee_kauffman.jpg'
+    Name: 'Andy Kauffman'
+    Image: './Images/employee_kauffman.jpg'
+    Description: 'Turns out he lived and decided to sell whole term life policies. Who knew?'
+    Price: 'A dimebag and a box of envelopes (hourly)'
   },
   {
-    Skeevy_insurance: './Images/poor_insurance_guy.jpeg'
+    Name: 'Seymour Butts'
+    Image: './Images/poor_insurance_guy.jpeg'
+    Description: 'That phone call really is for him. He is reportedly trustworthy.'
+    Price: 'Will work for Cheetos and Pepsi'
   }
 ]
 
 const VHSItems = [
   {
-    Birdemic_movie: './Images/worst_movie_birdemic.jpg'
+    Name: 'Birdemic'
+    Image: './Images/worst_movie_birdemic.jpg'
+    Description: 'Too. Many. Birds. OMG.'
+    Price: 2
   },
   {
-    Ice_movie: './Images/worst_movie_ice.jpg'
+    Name: 'Cool as Ice'
+    Image: './Images/worst_movie_ice.jpg'
+    Description: 'Vanilla Ice made a movie LOL'
+    Price: 78
   },
   {
-    Vape_movie: './Images/worst_movie_vapes.jpg'
+    Name: 'Planet of the Vapes'
+    Image: './Images/worst_movie_vapes.jpg'
+    Description: 'Apes vape vapes wearing capes. Totally rulez'
+    Price: 3.765
   }
 ]
 

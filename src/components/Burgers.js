@@ -8,3 +8,5 @@ const Burgers = () => {
     </div>
   )
 }
+
+export default Burgers
