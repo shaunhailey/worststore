@@ -18,10 +18,10 @@ export default class VHSRentalMenu extends Component {
                 {VHSItems.Image}
               </li>
             </ul>
-            <li>
+            <li className="bunnin">
               {VHSItems.Description}
             </li>
-            <li>
+            <li className="bunnin">
               Price = {VHSItems.Price}
             </li>
           </ul>
@@ -30,6 +30,7 @@ export default class VHSRentalMenu extends Component {
     })
     return (
       <div className="VHStown">
+        <h2>Worste Video Rental</h2>
         {VHSJunk}
         <Link className="btn btn-large btn-primary" to="/">
           Back To Home

@@ -30,6 +30,7 @@ export default class InsuranceMenu extends Component {
     })
     return (
       <div className="Insurancetown">
+        <h2>Worste Insurall</h2>
         {InsuranceJunk}
         <Link className="btn btn-large btn-primary" to="/">
           Back To Home

@@ -34,6 +34,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 500px;
+  height: 800px;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -41,6 +42,7 @@
   box-sizing: border-box;
   background-size: contain;
   width: 500px;
+  list-style: none;
 }
 .Navi {
   display: flex;
@@ -62,6 +64,48 @@
   display: flex;
   justify-content: space-around;
 }
+.bunnin {
+  list-style: none;
+  font-size: 16pt;
+  width: 200px;
+  color: rgb(34, 4, 34);
+  text-shadow: -1px 0 rgb(227, 12, 64), 0 1px rgb(227, 12, 64), 1px 0 rgb(227, 12, 64), 0 -1px rgb(227, 12, 64);
+}
+
+h2 {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.Burgertown {
+  background: url('../Images/burger.gif') repeat;
+  background-size: 75px;
+}
+.Cameratown {
+  background: url('../Images/camera.gif') repeat;
+  background-size: 175px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.Insurancetown {
+  background: url('../Images/insurance.gif') repeat;
+  background-size: 50px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.VHStown {
+  background: url('../Images/vhs.gif') repeat;
+  background-size: 75px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 ul {
   list-style: none;
+}
+.nav-link {
+  color: rgba(232, 21, 192, 0.72);
+  text-shadow: -1px 0 rgba(21, 162, 232, 0.72), 0 1px rgba(21, 162, 232, 0.72), 1px 0 rgba(21, 162, 232, 0.72),
+    0 -1px rgba(21, 162, 232, 0.72);
+}
+.homeP {
+  height: 800px;
 }

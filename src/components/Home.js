@@ -7,7 +7,8 @@ const Home = () => {
     <div className="home">
       <h1>Worste MultiMarket Extravaganza</h1>
       <h4>We guarantee all customers will receive the Worste experience!</h4>
-      <p>Note that we are open, the going out of business signs are just landlord negotiations</p>
+      <p className="homeP">Note that we are open, the going out of business signs are just landlord negotiations</p>
+
       <nav className="Navi">
         <NavLink activeClassName="selected" className="nav-link" exact to="/">
           Home

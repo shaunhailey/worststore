@@ -30,6 +30,7 @@ export default class cameraMenu extends Component {
     })
     return (
       <div className="Cameratown">
+        <h2>Worste Voyeurcam</h2>
         {CamLens}
         <Link className="btn btn-large btn-primary" to="/">
           Back To Home

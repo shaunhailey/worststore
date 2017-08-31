@@ -30,6 +30,7 @@ export default class burgerMenu extends Component {
     })
     return (
       <div className="Burgertown">
+        <h2>Worste Burgergasm</h2>
         {burgerBuns}
         <Link className="btn btn-large btn-primary" to="/">
           Back To Home
