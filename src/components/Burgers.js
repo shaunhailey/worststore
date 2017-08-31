@@ -5,17 +5,26 @@ import { Switch, Route, Link, NavLink } from 'react-router-dom'
 
 export default class burgerMenu extends Component {
   render() {
-    //get access to the match object
     let match = this.props.match
-    //map through our array and create a NavLink for each object inside
     let burgerBuns = burgerItems.map(burgerItems => {
       return (
         <div key={burgerItems.id} className={burgerItems.Name}>
-          <ul>Burgers!</ul>
-          <li>
-            {burgerItems.name}
-          </li>
-          <img src={burgerItems.Image} alt={burgerItems.Name} />
+          <ul>
+            <li>
+              {burgerItems.name}
+            </li>
+            <ul>
+              <li className="menuimg">
+                {burgerItems.Image}
+              </li>
+            </ul>
+            <li>
+              {burgerItems.Description}
+            </li>
+            <li>
+              Price = {burgerItems.Price}
+            </li>
+          </ul>
         </div>
       )
     })
