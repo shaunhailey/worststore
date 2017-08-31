@@ -6,9 +6,9 @@ const About = () => {
   return (
     <div className="about">
       <h1>About Worste MultiMarket Extravaganza</h1>
-      <p>
+      <p className="homeP">
         "One of these days the sun's gonna come up and burn a hole clean through the planet like a giant electrical
-        x-ray."
+        x-ray."--owner, Lula Pace Worste-Fortune
       </p>
       <nav className="Navi">
         <NavLink activeClassName="selected" className="nav-link" exact to="/">

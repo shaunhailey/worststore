@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom'
 
 const Navbar = () =>
-  <div>
+  <div className="Navi1">
     <nav className="Navi">
       <NavLink activeClassName="selected" className="nav-link" exact to="/">
         Home

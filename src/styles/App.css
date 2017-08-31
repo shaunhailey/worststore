@@ -33,22 +33,23 @@
   background: url('../Images/worst_store_ever.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 500px;
-  height: 800px;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
 }
 .contactList {
   box-sizing: border-box;
   background-size: contain;
   width: 500px;
   list-style: none;
+  text-align: center;
+  display: inline-block;
 }
 .Navi {
   display: flex;
   justify-content: space-between;
+  align-content: center;
   background-size: contain;
-  width: 500px;
 }
 .burgers {
   background-size: cover;
@@ -97,6 +98,10 @@ h2 {
   background-size: 75px;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: column;
 }
 ul {
   list-style: none;

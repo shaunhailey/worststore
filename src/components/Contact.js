@@ -6,11 +6,13 @@ const Contact = () => {
   return (
     <div className="contact">
       <h1>How to Reach Worste MultiMarket Extravaganza</h1>
-      <ul className="contactList">
-        <li>Phone = 813-DONTBOTHER</li>
-        <li>Email = worsteemailever@suckit.io</li>
-        <li>Address = 678 Slumtrap Ave, Memphis, TN</li>
-      </ul>
+      <div className="homeP">
+        <ul className="contactList">
+          <li>Phone = 813-DONTBOTHER</li>
+          <li>Email = worsteemailever@suckit.io</li>
+          <li>Address = 678 Slumtrap Ave, Memphis, TN</li>
+        </ul>
+      </div>
       <nav className="Navi">
         <NavLink activeClassName="selected" className="nav-link" exact to="/">
           Home
