@@ -62,8 +62,7 @@
 .menuimg > img {
   height: 200px;
   width: 200px;
-  display: flex;
-  justify-content: space-around;
+  display: inline-block;
 }
 .bunnin {
   list-style: none;
@@ -71,6 +70,9 @@
   width: 200px;
   color: rgb(34, 4, 34);
   text-shadow: -1px 0 rgb(227, 12, 64), 0 1px rgb(227, 12, 64), 1px 0 rgb(227, 12, 64), 0 -1px rgb(227, 12, 64);
+  background-color: orange;
+  display: flex;
+  justify-content: space-around;
 }
 
 h2 {
@@ -100,11 +102,13 @@ h2 {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   flex-direction: column;
+  padding: 0em;
 }
 ul {
   list-style: none;
+  text-align: center;
 }
 .nav-link {
   color: rgba(232, 21, 192, 0.72);
@@ -113,4 +117,9 @@ ul {
 }
 .homeP {
   height: 800px;
+}
+.videoTitle {
+  color: rgb(34, 4, 34);
+  text-shadow: -1px 0 rgb(227, 12, 64), 0 1px rgb(227, 12, 64), 1px 0 rgb(227, 12, 64), 0 -1px rgb(227, 12, 64);
+  background-color: orange;
 }

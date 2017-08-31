@@ -30,7 +30,7 @@ export default class VHSRentalMenu extends Component {
     })
     return (
       <div className="VHStown">
-        <h2>Worste Video Rental</h2>
+        <h2 className="videoTitle">Worste Video Rental</h2>
         {VHSJunk}
         <Link className="btn btn-large btn-primary" to="/">
           Back To Home
