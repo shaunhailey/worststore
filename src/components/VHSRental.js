@@ -13,7 +13,7 @@ export default class VHSRentalMenu extends Component {
             <li>
               {VHSItems.name}
             </li>
-            <ul>
+            <ul className="amenuimg">
               <li className="menuimg">
                 {VHSItems.Image}
               </li>

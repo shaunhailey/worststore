@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -62,12 +67,20 @@
 .menuimg > img {
   height: 200px;
   width: 200px;
-  display: inline-block;
+  display: inline;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.amenuimg {
+  margin: 0 auto;
+  width: 90%;
+  height: 200px;
+  width: 200px;
 }
 .bunnin {
   list-style: none;
   font-size: 16pt;
-  width: 200px;
+  width: 280px;
   color: rgb(34, 4, 34);
   text-shadow: -1px 0 rgb(227, 12, 64), 0 1px rgb(227, 12, 64), 1px 0 rgb(227, 12, 64), 0 -1px rgb(227, 12, 64);
   background-color: orange;
